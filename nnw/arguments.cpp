@@ -20,4 +20,8 @@ namespace nnw
         else
             data = this->_data;
     }
+    bool Arguments::IsConstant()
+    {
+        return this->_isConstant;
+    }
 }

@@ -13,6 +13,7 @@ namespace nnw
         Arguments();
         Arguments(const Data data, const bool isConstant = true);
         void UpdateData(Data &data, bool upd = true);
+        bool IsConstant();
     };
 }
 
